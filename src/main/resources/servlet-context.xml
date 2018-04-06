@@ -9,6 +9,11 @@
       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.1.xsd
       http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd">
 
+    <!-- redis连接 -->
+    <bean id="jedis" class="redis.clients.jedis.Jedis">
+        <constructor-arg type="java.lang.String" value="localhost"/>
+    </bean>
+
     <!-- 添加一个注解驱动 -->
     <mvc:annotation-driven/>
     <!-- 扫描器 -->
