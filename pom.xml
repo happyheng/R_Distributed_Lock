@@ -2,10 +2,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.happyheng</groupId>
-  <artifactId>testb</artifactId>
+  <artifactId>R_Lock</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>testb Maven Webapp</name>
+  <name>R_Lock Maven Webapp</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -122,6 +122,6 @@
 
   </dependencies>
   <build>
-    <finalName>R_Distributed_Lock</finalName>
+    <finalName>R_Lock</finalName>
   </build>
 </project>
