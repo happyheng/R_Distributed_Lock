@@ -2,7 +2,7 @@ package com.happyheng.lock;
 
 /**
  *
- * Created by liuheng on 2018/4/6.
+ * Created by happyheng on 2018/4/6.
  */
 public interface DistributedLockService {
 

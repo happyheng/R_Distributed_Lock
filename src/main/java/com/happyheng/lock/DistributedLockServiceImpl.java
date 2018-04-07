@@ -7,7 +7,7 @@ import redis.clients.jedis.Jedis;
 
 /**
  *
- * Created by liuheng on 2018/4/6.
+ * Created by happyheng on 2018/4/6.
  */
 @Service
 public class DistributedLockServiceImpl implements DistributedLockService {
@@ -21,7 +21,7 @@ public class DistributedLockServiceImpl implements DistributedLockService {
     private static final int DISTRIBUTED_LOCK_TIME = 10;
 
     /**
-     * 默认最大等待时间，此为5s
+     * 默认最大等待时间，此为5000ms
      */
     private static final int DISTRIBUTED_DEFAULT_MAX_WAIT_TIME = 5000;
 
